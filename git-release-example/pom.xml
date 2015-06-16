@@ -2,7 +2,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.vitormp</groupId>
+	<groupId>com.nacmacfeegle</groupId>
 	<artifactId>git-release-example</artifactId>
 	<version>0.1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -10,9 +10,9 @@
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:git@github.com:vitormp/GitRelease.git</connection>
-		<developerConnection>scm:git:git@github.com:vitormp/GitRelease.git</developerConnection>
-		<url>scm:git:git@github.com:vitormp/GitRelease.git</url>
+		<connection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</connection>
+		<developerConnection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</developerConnection>
+		<url>scm:git:git@github.com:nacmacfeegle/GitRelease.git</url>
 	</scm>
 
 	<distributionManagement>
@@ -20,14 +20,14 @@
 		<repository>
 			<id>nexusrepo</id>
 			<name>My releases</name>
-			<url>http://192.168.3.166:8081/nexus/content/repositories/releases</url>
+			<url>http://localhost:8081/nexus/content/repositories/releases</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexusrepo</id>
 			<name>My snapshots</name>
-			<url>http://192.168.3.166:8081/nexus/content/repositories/snapshots</url>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -52,6 +52,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 
 </project>
