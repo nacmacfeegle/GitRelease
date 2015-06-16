@@ -4,7 +4,7 @@
 
 	<groupId>com.nacmacfeegle</groupId>
 	<artifactId>git-release-example</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
@@ -13,8 +13,7 @@
 		<connection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</connection>
 		<developerConnection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</developerConnection>
 		<url>scm:git:git@github.com:nacmacfeegle/GitRelease.git</url>
-	  <tag>git-release-example-0.0.1</tag>
-  </scm>
+	</scm>
 
 	<distributionManagement>
 		<!-- Publish versioned releases here -->
