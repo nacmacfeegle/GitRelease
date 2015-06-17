@@ -10,7 +10,7 @@
 
 	<groupId>com.nacmacfeegle</groupId>
 	<artifactId>basepom</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<packaging>pom</packaging>
 
 	<name>git-release-example parent project</name>
@@ -19,7 +19,7 @@
 		<connection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</connection>
 		<developerConnection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</developerConnection>
 		<url>scm:git:git@github.com:nacmacfeegle/GitRelease.git</url>
-	  <tag>HEAD</tag>
+	  <tag>basepom-0.0.3</tag>
   </scm>
 
 	<distributionManagement>
