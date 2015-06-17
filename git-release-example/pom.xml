@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.nacmacfeegle</groupId>
-	<artifactId>git-release-example</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<artifactId>basepom</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-	<name>git-release-example Maven Webapp</name>
+	<name>git-release-example parent project</name>
 
 	<scm>
 		<connection>scm:git:git@github.com:nacmacfeegle/GitRelease.git</connection>
@@ -31,6 +31,11 @@
 			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
+
+	<modules>
+		<module>child_project1</module>
+		<module>child_project2</module>
+	</modules>
 
 
 	<build>
